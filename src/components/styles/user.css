@@ -1,0 +1,83 @@
+.announcement-container{
+    height : 30px; 
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    position : sticky;
+    top : 0;
+    z-index: 1;
+}
+.sidebar-container{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.link{
+   text-decoration: none;
+   color: black;
+  }
+  .link:hover{
+    color: #b4acb1;
+    font-weight: 600;
+  }
+  .table td{
+   text-align: center;   
+   vertical-align: middle !important;
+
+}
+.q-container{
+  display: flex;
+  flex-flow: row wrap;
+justify-content: center;
+align-items: center;  }
+.quantity-items{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border : black solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+}
+.empty-cart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-cart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-line{
+  border-bottom : 1px solid #eaeaec;
+  margin : auto;
+  margin-bottom: 30px;
+  height: 72px;
+}
+.v-line{
+  border-left : 1px solid red;
+  margin-left : 50%;
+  height: 100px;
+  width: 2px;
+}
+.divider{
+  display: inline-block;
+  border-top: 1px dashed #696B79;
+  height: 4px;
+  width: 9%;
+}

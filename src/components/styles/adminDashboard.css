@@ -1,0 +1,169 @@
+.sideList {
+  width: 100%;
+  padding: 0;
+
+}
+
+.sideList .row {
+  width: 100%;
+  height: 65px;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+
+.sideList .row:hover {
+  cursor: pointer;
+  color: blue;
+  background-color: #cacdf3;
+  text-decoration: none;
+
+}
+
+.sideList a.active {
+  color: rgb(250, 250, 250);
+  background-color: #1976D2;
+  font-weight: 600;
+}
+
+.sideList a {
+  padding-left: 8px;
+  color: gray;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.logout {
+  position: absolute;
+  margin-right: 10px;
+  right: 0
+}
+
+.invalid-field {
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: #fff;
+}
+
+
+.add-category {
+  transition: 0.5s;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.add-category:hover {
+  cursor: pointer;
+
+  transform: scale(1.10);
+
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(51, 49, 49, 0.06);
+}
+.delete-button{
+  position: absolute;
+  top: 85%;
+}
+
+.card .delete-button {
+  visibility: hidden;
+}
+
+.card:hover .delete-button {
+  display: block;
+  visibility: visible;
+}
+
+.card .delete-button:hover {
+  color: #dc1b2e;
+
+}
+
+.custom-modal-style {
+  min-width: 32%;
+}
+.product-link{
+  position: absolute;
+ top: 88%;
+ text-decoration: none;
+}
+.product-link:hover{
+  color: #5c6df4;
+  font-weight: 600;
+}
+.table{
+  width: 97.5% !important;
+  border-radius: 2%;
+}
+.table th{
+  text-align: center;   
+  vertical-align: middle !important;
+}
+.hint-text {
+	float: left;
+	margin-top: 10px;
+	font-size: 13px;
+}   
+.pagination{
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.input-wrapper{
+	background-color: white;
+	border-radius: 10px;
+	height: 2.6rem;
+	padding: 3px 15px;
+	box-shadow: 0px 0px 8px #ddd;
+	display: flex;
+	align-items: center;
+	margin-left:  auto ;
+	margin-right: 30px;
+	font-size: 1rem;
+	
+}
+.search{
+	background-color: transparent;
+	border: none;
+	height: 100%;
+	width: 75rem	
+}
+input:focus{
+	outline: none;
+}
+#search-icon{
+	color: royalblue;
+}
+
+.modal-header{
+  padding : 10px 15px 7px !important
+}
+.modal-body{
+  padding : 10px 15px 0px !important
+}
+ .modal-footer{
+  padding : 8px 15px !important
+}
+.item-link{
+  text-decoration: none;
+  
+}
+.item-link:hover{
+  font-weight: 700;
+  transform: scale(1.10);
+}

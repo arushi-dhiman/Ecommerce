@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "WIUsZ+aIbh96WZDmDowdY6amQgFlZcD3klw4DKPg9Z8=",
+  "Source": "EcommerceApplication",
+  "BasePath": "_content/EcommerceApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EcommerceApplication\\wwwroot",
+      "Source": "EcommerceApplication",
+      "ContentRoot": "C:\\Users\\Techbit\\source\\repos\\MedicineApplication\\MedicineApplication\\wwwroot\\",
+      "BasePath": "_content/EcommerceApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
